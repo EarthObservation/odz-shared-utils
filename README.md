@@ -31,11 +31,12 @@ This script provides utility functions to clean and normalize raw tabular datase
 ```
 
 ## Jupyter Notebook Header Format
-At the beginning of each Jupyter notebook, include a Markdown cell with the following metadata:
-- **Title**
-- **Date of creation**
-- **Author**
-- **Short description** of what the notebook demonstrates or analyses
+* At the beginning of each Jupyter notebook, include a Markdown cell with the following metadata:
+    - **Title**
+    - **Date of creation**
+    - **Author**
+    - **Short description** of what the notebook demonstrates or analyses
+* Clear cells before commit
 
 ### Example:
 ```markdown
@@ -45,7 +46,7 @@ At the beginning of each Jupyter notebook, include a Markdown cell with the foll
 **Author:** Jane Doe  
 **Description:** This notebook demonstrates how to filter noise from a high-resolution lidar-derived DEM using a median filter.
 ```
-```
+
 
 ---
 
